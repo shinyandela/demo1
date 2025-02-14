@@ -1,0 +1,145 @@
+/* .container{
+    border: 10px solid red;
+    outline: 10px solid black;
+    width: 300px;
+    padding: 20px;
+    /* height: 300px; */
+    /* float: right; */
+/* } */ 
+/* ::selection{
+    background-color: cadetblue;
+    color: brown;
+} */
+/* h1::before{
+    content: "hi";
+} */
+ /* h1::first-letter{
+    font-size: 100px;
+    color: cadetblue;
+ }
+ p::first-line{
+    color: cadetblue;
+ } */
+
+ /* tr:nth-child(even){
+    background-color: cadetblue;
+ } */
+  /* .box{
+    width: 200px;
+    height: 200px;
+    /* border-radius: 100%; */
+     /* background-color: cadetblue;  */
+    /* border: 2px solid cadetblue;
+    border-top: 0px;
+    border-right: 0px; */
+    /* animation-name: box;
+    animation-duration: 5s; */
+    /* animation-fill-mode: forwards; */
+    /* animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+  }
+  @keyframes box{
+    0%{
+        transform: translate(0px,0px);  */
+        /* transform: rotate(0deg); */
+    /* }
+    25%{
+         transform: translate(0px,200px); 
+        /* transform: rotate(360deg); */
+    /* }
+    50%{
+        transform: translate(200px,200px);
+    }
+    75%{
+        transform: translate(200px,0px);
+    }
+    100%{
+        transform: translate(0px,0px);
+    }
+  } */ 
+
+  /* body{
+    background-image: url(./assets/doraemon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* filter: blur(100px); */
+  /* }
+  div{
+    width: 200px;
+    height: 200px;
+    border: 2px solid goldenrod; */
+    /* background-color: cadetblue; */
+    /* backdrop-filter: blur(20px);
+
+  }
+  img{
+    filter: blur(20px);
+  } */
+
+  .container{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+
+  }
+  span{
+    width: 50px;
+    height: 50px;
+    display:inline-block;
+    /* background-color: goldenrod; */
+    border-radius: 100%;
+    animation: abc 1s linear 0s infinite;
+    animation-direction: normal;
+
+  }
+  
+  span:nth-child(1){
+    background-color: red;
+    animation-delay: 0s;
+  }
+  span:nth-child(2){
+    background-color: blue;
+    animation-delay: 0.5s;
+  }
+  span:nth-child(3){
+    background-color: yellow;
+    animation-delay: 1s;
+  }
+  span:nth-child(4){
+    background-color: greenyellow;
+    animation-delay: 1.5s;
+  }
+  span:nth-child(5){
+    background-color: orange;
+    animation-delay: 2s;
+  }
+  @keyframes abc {
+      /* from{
+        transform: translateY(100px);
+    }
+    to{
+        transform: translateY(-100px);
+    }   */
+       0%{
+        transform: translateY(0px);
+       }
+       25%{
+        transform: translateY(150px);
+       }
+       50%{
+        transform: translateY(0px);
+       }
+       75%{
+        transform: translateY(-150px);
+       }
+       100%{
+        transform: translateY(0px);
+       }
+
+
+    
+  }
